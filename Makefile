@@ -4,7 +4,7 @@ SCRYPTUNPACKED=scrypt-$(SCRYPTVERSION)
 SCRYPTTARBALL=scrypt-$(SCRYPTVERSION).tgz
 
 PYTHON=python
-EMCC='which emcc'
+EMCC=`which emcc`
 
 ## Builds well with emscripten 1.35.0
 all: browser
